@@ -3,7 +3,7 @@
 Binary releases of the puq-code coding agent (the `puq` command) for macOS arm64/x64 and Linux x64/arm64 (glibc).
 
 ```sh
-curl -fsSL https://github.com/puq-ai/puq-code-releases/releases/download/channels/install.sh | sh
+curl -fsSL https://github.com/puq-ai/code/releases/download/channels/install.sh | sh
 ```
 
 Releases are published automatically by CI; this repository holds no source code. Versions start at 1.0.0.
