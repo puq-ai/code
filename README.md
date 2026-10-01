@@ -8,6 +8,18 @@ curl -fsSL https://github.com/puq-ai/code/releases/download/channels/install.sh 
 
 Releases are published automatically by CI; this repository holds no source code. Versions start at 1.0.0.
 
+## Channels
+
+| Channel | Install | Gets |
+| --- | --- | --- |
+| stable (default) | `curl -fsSL https://github.com/puq-ai/code/releases/download/channels/install.sh \| sh` | versions that spent about a week on latest |
+| latest | `curl -fsSL https://github.com/puq-ai/code/releases/download/channels/install.sh \| sh -s -- latest` | every release as it ships |
+
+`puq update` and the background updater follow the channel in `update.channel`. Switch an existing install with
+`puq config set update.channel latest` (or `stable`). Switching never downgrades: you stay on your version until the
+channel passes it. A specific version installs with `… | sh -s -- 1.0.0`. GitHub's "Latest" badge marks the current
+stable release.
+
 ## License and attribution
 
 puq-code is released under the MIT license — see [LICENSE](LICENSE).
