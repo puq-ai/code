@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="assets/puqqy-hero.svg" alt="puq code: From first prompt to final diff. A coding agent that lives in your terminal. puqqy by a campfire on a moonlit lake in pixel art; 42% cheaper than Claude Code on the same subscription." width="100%">
+  <img src="assets/puq-code-hero.svg" alt="puq code: From first prompt to final diff. A coding agent that lives in your terminal. puqqy by a campfire on a moonlit lake in pixel art; 42% cheaper than Claude Code on the same subscription." width="100%">
   <br>
   puq code
 </h1>
