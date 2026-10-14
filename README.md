@@ -1,12 +1,12 @@
 <h1 align="center">
-  <img src="assets/puq-code-hero.svg" alt="puq code: From first prompt to final diff. A coding agent that lives in your terminal. puqqy by a campfire on a moonlit lake in pixel art; 42% cheaper than Claude Code on the same subscription." width="100%">
+  <img src="assets/puq-code-hero-2.svg" alt="puq code: From first prompt to final diff. A coding agent that lives in your terminal. puqqy by a campfire on a moonlit lake in pixel art; up to 42% cheaper than Claude Code in our tests." width="100%">
   <br>
   puq code
 </h1>
 
 <p align="center">
   <b>A coding agent that lives in your terminal.</b><br>
-  Same tests passed as Claude Code, <b>42% cheaper on average</b> on the same Claude subscription.
+  Same hidden tests passed as Claude Code, <b>up to 42% cheaper</b> in our tests.
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="#install">Install</a> ·
-  <a href="#42-cheaper-on-average">Savings</a> ·
+  <a href="#cost-in-our-tests">Savings</a> ·
   <a href="#what-puq-code-does">What it does</a> ·
   <a href="#meet-puqqy">Meet puqqy</a> ·
   <a href="#channels">Channels</a> ·
@@ -42,18 +42,21 @@ Then run `puq` inside any project. On first launch, sign in with your **puq** ac
 
 This repository holds the release binaries only; CI publishes them, there is no source code here.
 
-## 42% cheaper on average
+## Cost in our tests
 
-<p align="center">
-  <img src="assets/puq-savings.svg" alt="Same tests passed as Claude Code, 42% cheaper on average: Opus 5.5 48%, Sonnet 5.5 50%, Fable 5.1 29% lower cost on the same Claude subscription." width="100%">
-</p>
+Every hidden test passed on both sides. Cost at catalog API prices, both tools at high effort.
+Against our everyday Claude Code setup (skills and plugins loaded), puq code cost up to 42% less
+(Oct 1, one session per model). Against a clean setup, 3 sessions per cell (Oct 7):
 
-| Model      | puq code | Claude Code | Saving   |
-| ---------- | -------: | ----------: | -------: |
-| Opus 5.5   |    $0.49 |       $0.95 |  **48%** |
-| Sonnet 5.5 |    $0.20 |       $0.39 |  **50%** |
-| Fable 5.1  |    $1.16 |       $1.63 |  **29%** |
-| Average    |          |             |  **42%** |
+| Model      | Task      | puq code | Claude Code | Saving   |
+| ---------- | --------- | -------: | ----------: | -------: |
+| Sonnet 5.5 | 4 turns   |   $0.174 |      $0.215 |  **19%** |
+| Sonnet 5.5 | 12 turns  |   $1.591 |      $1.797 |  **11%** |
+| Opus 5.5   | 12 turns  |   $3.285 |      $3.581 |   **8%** |
+| Opus 5.5   | 4 turns   |   $0.479 |      $0.487 |   **2%** |
+
+With each tool's default effort puq cost more on Oct 7; v1.0.5 changed how `auto` picks effort and
+we haven't re-run that comparison yet.
 
 ## What puq code does
 
@@ -65,9 +68,9 @@ This repository holds the release binaries only; CI publishes them, there is no 
       (LSP) for definitions, references and diagnostics.
     </td>
     <td width="50%" valign="top">
-      <h3>Spends less per turn</h3>
-      <b>42% cheaper on average</b> than Claude Code on the same subscription. A leaner prompt,
-      ranked code-search hits and trimmed tool output; the status line can show each turn's cost.
+      <h3>Wastes fewer calls</h3>
+      A leaner prompt, ranked code-search hits and trimmed tool output; <b>up to 42% cheaper</b>
+      than Claude Code in our tests. The status line can show each turn's cost.
     </td>
   </tr>
   <tr>
